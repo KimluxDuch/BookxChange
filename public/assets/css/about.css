@@ -1,0 +1,93 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background:linear-gradient(rgba(243, 243, 243, 0.919),rgba(181, 175, 175, 0.919)), url('../img/classmate.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 1500px;
+  }
+  
+  .container {
+    width: 2900px;
+    height: 900px;
+    margin: auto;
+    padding: 3px;
+    
+  }
+
+  
+  h1 {
+    margin-top: 5px;
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  }
+  
+  h5{
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  }
+  p {
+    color: #000000;
+    line-height: 1.6;
+    
+  }
+  
+  .contact-info {
+    background-color: #a1a19d;
+    height: 34vh;
+    padding: 10px;
+    border: 2px solid #716d6d;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  ul {
+      color: #563f3f;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    
+    width: 100px;
+  }
+
+
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    color: #000;
+    font-size: 20px;
+}
+
+.social-media ul li a:hover {
+    color: #555;
+}
